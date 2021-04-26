@@ -18,7 +18,7 @@ Inpaint (a.k.a. content-aware fill) the areas indicated by the Mask input using 
 
 Be aware that this filter may produce different results on each frame of a video, even if there is little change in the video content. To inpaint areas with lots of details, it may be better to inpaint on a single frame and paste the inpainted area on other frames (if a transform is also required to match the other frames, it may be computed by tracking).
 
-A tutorial on using this filter can be found at http://blog.patdavid.net/2014/02/getting-around-in-gimp-gmic-inpainting.html
+A tutorial on using this filter can be found at https://patdavid.net/2014/02/getting-around-in-gimp-gmic-inpainting-content-aware-fill/
 
 The algorithm is described in the two following publications:
 
